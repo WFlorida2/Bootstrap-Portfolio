@@ -1,62 +1,274 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap-Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-  <div class="container">
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css"/>
+            <script src="https://kit.fontawesome.com/457a315592.js"
+        crossorigin="anonymous">
+            </script>
+        <title>Bootstrap Portfolio Amr Shehata</title>
+    </head>
+    <body>
+        
+        <!-- Top navigation bar properties -->
+
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+            <div class="container-fluid">
+            <button 
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" 
+            data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                            <a href="#about" class="nav-link">About Me</a>
+                                </li>
+                                    <li class="nav-item">
+                                        <a href="#work" class="nav-link">Work</a>
+                                            </li>
+                                                <a href="#resume" class="nav-link">Resume</a>
+                                                    </li>
+                                                        <li class="nav-item">
+                                                            <a href="#contact" class="nav-link">Contact Me</a>
+                                                                </li>                                                                        
+                </ul>
+            </div>
+        </nav>
+        <!--  section Profile name, Job title and certifications logos properties -->
+            <section 
+            class="bg-dark text-light p-5 p-lg-0 text-center text-sm-start">
+            <div class="jumbotron">
+            <div class="d-sm-flex align-items-center justify-content-between">
+            
+            <div class="font-family">
+                <h2>Amr Shehata</h2>
+            </div>
+
+            <div class="font-family">
+                <h3>SFMC <span class="text-warning">Functional Architect </span></h3>
+                
+                <div class="image-container">
+                    <img src="./images/2021-03_Badge_SF-Certified_Marketing-Cloud-Consultant_High-Res.png" alt="Marketing cloud logo"
+                    style="width: 60px;">
+                    <img src="./images/2021-03_Badge_SF-Certified_Marketing-Cloud-Email-Specialist_High-Res.png" alt="Marketing cloud logo"
+                    style="width: 60px;">
+                    <img src="./images/Tealium ligh color.png" alt="Tealium logo"
+                    style="width: 60px;" 
+                    class="img-profile">
+                    <img src="./images/2021-03_Badge_SF-Certified_Platform-App-Builder_High-Res.png" alt="salesforce app builder logo"
+                    style="width: 60px;">
+                    <img src="./images/2021-03_Badge_SF-Certified_Administrator_High-Res.png" alt="salesforce admin logo"
+                    style="width: 60px;">
+                </div>
+            </div>  
+            </div>
+            </div>
+
+                <img class="img-profile" 
+                src="./images/thumbnail_Amr Shehata.jpg" 
+                width="138px" 
+                height="138px" 
+                alt="Photo of Amr Shehata" 
+                class="img-thumbnail d-none d-sm-block"/>
+
+            </section>
+
+            <!-- Section for About me -->
+            <section class="p-5" id="about">
+            <div class="font-family">
+            <h3>About<span class="text-warning"> Me </span></h3>
+            </div>
+            <div style="width:100%">
+            <hr/>
+            </div>
+            <div class="container">
+            <div class="justified-text">
+                <p>Amr is a Certified Salesforce Marketing Cloud Functional Architect, Certified MC Email specialist, Salesforce Platform App Builder, Salesforce Administrator, Certified SaaS Methodology Practitioner and ISTQB Certified.</p>
+
+                <p>Amr worked on several high-profile government and private client’s projects mainly involved in Marketing Cloud deployments and integrations with Salesforce Service and Sales Cloud.
+                Amr built an in-depth experience with Marketing Cloud Configuration and development of Automation, Journey Builder and MC connect.  Skills that covering all aspects from requirements gathering to complete MC setup and configuration of platform and its full testing cycle.</p>  
+            
+            <p>Amr gained valuable experience by being involved in more than 40 various projects within his time at Accenture UK so far being exposed to a rich mix of clients, teams’ cultures, countries, diversity of technologies and industries.</p>
+            
+            <p>Amr is highly organised, versatile and results-oriented team player with an energetic and articulate approach to MC development. 
+                <P>Amr has the ability to acquire new skills within short time scale, adept to rapidly changing work practices as demonstrated through successful career at Accenture UK, GSMA Ltd and LTIMindtree UK.</P>
+            </p>
+            </div>
+            </div>
+            </section>
+
+            <!-- section for work section -->
+            <section class="p-5" id="work">
+            <div class="font-family">
+                <h3>Pre-work<span class="text-warning"> guide </span></h3>
+            </div>
+            <div style="width:100%">
+                <hr/>
+            </div>
+
+            <div class="container">
+            <div class="row text-center g-4">
+            <div class="col-md">
+            <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+            <div class="h1 mb-3">
+            </div>
+            <h3 class="card-title mb-3">Pre-Work-Guide</h3>
+                <p class="card-text">
+                This is a first & simple project list prework notes to be structured on a webpage so I can easily access and read.
+                </p>
+            <a href="https://wflorida2.github.io/prework-study-guide/" target="_blank" class="btn btn-primary">Preview</a>
+            </div>
+            </div>
+            </div>
+            <div class="col-md">
+            <div class="card bg-secondary text-light">
+            <div class="card-body text-center">
+            <div class="h1 mb-3">
+            </div>
+                <h3 class="card-title mb-3">Horiseon-Accessibility</h3>
+                    <p class="card-text" class="justified-text">
+                This is a code refactoring task to meet a certain set of standards to make the website more accessible to the users.</p>
+                    <a href="https://wflorida2.github.io/horiseon-accessibility/" target="_blank" class="btn btn-dark">Preview</a>
+            </div>
+        </div>
+        </div>
+        <div class="col-md">
+        <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+            <div class="h1 mb-3">
+                <!-- <i class="bi bi-"></i> -->
+            </div>
+            <h3 class="card-title mb-3">First Portfolio</h3>
+            <p class="card-text">
+                This is a progressing Portfolio that contains exposure to Navbar, maps,cards,Modal,Accordion and more css styling
+            </p>
+            <a href="https://wflorida2.github.io/Portfolio/" target="_blank" class="btn btn-primary">Preview</a>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+        <!-- section for Resume section -->
+
+        <section class="p-5" id="resume">
+            <div class="font-family">
+                <h3>R<span class="text-warning">esume </span></h3>
+            </div>
+            <div style="width:100%">
+                <hr/>
+            </div>
+
+            <div class="container">
+            <div class="accordion accordion-flush">
+                <div class="accordion-item">
+                <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        LTIMindtree UK Jan. 2021 - March 2023
+            </button>
+                </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body" class="justified-text">LTIMindtree Ltd is an Indian multinational information technology services and consulting company.
+                <p></p>
+                    <p>Amr led a team of consultants, developers, and testers to design, build & deploy SFMC B2B project @ adidas headquarter in Germany as well as a marketing Cloud discovery sessions for Harvard University.</p>
+            </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        GSMA Ltd June 2019 - Jan. 2021
+            </button>
+                </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body" class="justified-text">GSMA represents the interests of mobile operators worldwide, uniting nearly 750 operators with more than 350 companies in the border mobile ecosystem as well as organisations in adjacent industry sectors. GSMA also produces industry-leading events such as Mobile World Congress Barcelona, Mobile World Congress Shanghai, Mobile World Congress Los Angeles and the Mobile 360 Series of conferences.
+                <p></p>
+                    <p>Assisted teams across the business in fully utilizing Salesforce Marketing Cloud capabilities and applied data segmentations to drive business decision, building solutions to specific business needs and increase revenue.</p>
+
+            </div>
+            </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Accenture UK Aug. 2006 - June 2019
+            </button>
+                </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body" class="justified-tex">Accenture plc is an Irish-American professional services company based in Dublin, specializing in information technology services and consulting. A Fortune Global 500 company, it reported revenues of $64.1 billion in 2023.
+                <p></p>
+                    <p>Amr held various positions during his time working for Accenture in various countries such as UK , Germany , France , Switzerland and Latvia.</p>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </section>
+
+            <!-- Contact section including links to email me -->
+        <section class="p-5" id="contact">
+            <div class="font-family">
+                <h3>Contact<span class="text-warning"> Me </span></h3>
+            </div>
+            <div style="width:100%">
+                <hr/>
+            </div>
+            
+            <div class="container">
+            <a href="mailto:amr_shehata@hotmail.com">
+                <img width="40" height="40" src="https://img.icons8.com/ultraviolet/40/new-post.png" alt="Email me logo"/>
             </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </div>
-  </nav>
-
-  <nav class="navbar bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="./images/thumbnail_Amr Shehata.jpg" alt="Photo of Amr Shehata" width="100" height="100" class="d-inline-block align-text-top">
-        Amr Shehata
-      </a>
-    </div>
-  </nav>
+            </div>
+        </section>
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
-</html>
+        <!-- section for footer that includes all social media icons and access -->
+        <section>
+            <div class="container-hover">
+
+                <a class="link linkedin" href="https://www.linkedin.com/in/amrshehata/" target="_blank">
+                    <i class="fab fa-2x fa-linkedin"></i>
+                </a>
+                <a class="link twitter" href="https://twitter.com/amrshehata12345" target="_blank">
+                    <i class="fab fa-2x fa-twitter"></i>
+                </a>
+                <a class="link github" href="https://github.com/WFlorida2" target="_blank" >
+                    <i class="fab fa-2x fa-github"></i>
+                </a>
+                <a class="link instagram" href="https://www.instagram.com/" target="_blank">
+                    <i class="fab fa-2x fa-instagram"></i>
+                </a>
+                <a class="link salesforce" href="https://trailblazer.me/id/ashehata3" target="_blank" >
+                    <i class="fab fa-2x fa-salesforce"></i>
+                </a>
+            </div>
+        </section>
+
+
+        <!-- scripts section -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+
+        <!-- Credit given to icons8.com -->
+
+        <!-- <a  href="https://icons8.com/icon/32323/instagram">Instagram</a> icon by <a href="https://icons8.com">Icons8</a>
+        <a  href="https://icons8.com/icon/13930/linkedin">LinkedIn</a> icon by <a href="https://icons8.com">Icons8</a>
+        <a  href="https://icons8.com/icon/13963/twitter">Twitter</a> icon by <a href="https://icons8.com">Icons8</a>
+        <a  href="https://icons8.com/icon/63777/github">GitHub</a> icon by <a href="https://icons8.com">Icons8</a>
+        <a  href="https://icons8.com/icon/38804/salesforce">Salesforce</a> icon by <a href="https://icons8.com">Icons8</a>
+        <a  href="https://icons8.com/icon/42058/email">Email</a> icon by <a href="https://icons8.com">Icons8</a>
+        <a  href="https://icons8.com/icon/ObPXucHmnXuC/number-pad">Number Pad</a> icon by <a href="https://icons8.com">Icons8</a> -->
+
+        <!-- credit to https://www.geeksforgeeks.org/how-to-create-icon-hover-effect-using-css/ -->
+        <!-- credit to Traversy Media for Bootstrap 5 Crash Course | Website Build & Deploy -->
+
+    </body>
+    </html>
+    

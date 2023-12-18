@@ -1,0 +1,193 @@
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Sections classes */
+.p-5{
+  padding: 1rem!important;
+}
+
+/* Spacer horizontal lines */
+hr {
+  background: black;
+  height: 2px;
+  position: relative;
+}
+hr:before {
+  width: 10px;
+  height: 10px;
+  background: black;
+  content: '';
+  display: block;
+  position: absolute;
+  left: -2px;
+  top: -4px;
+  border-radius: 5px;
+}
+hr:after {
+  width: 10px;
+  height: 10px;
+  background: black;
+  content: '';
+  display: block;
+  position: absolute;
+  right: -2px;
+  top: -4px;
+  border-radius: 5px;
+}
+
+/* Font family for profile name and job title */
+.font-family{
+  font-family:cursive;
+}
+
+/* Navigation bar class property */
+.navbar-brand{
+margin: 0px;
+}
+
+/* Cards properties */
+.card-body{
+  padding: 0%;
+  height:auto;
+}
+.card-img{
+max-width: 100%;
+height:auto;
+border-radius: 10%;
+width:auto;
+align-content: center;
+margin:20%;
+}
+.card {
+  margin: 8px; /* Adjust the value as needed */
+  border:aliceblue;
+}
+.card-title{
+align-content:center;
+justify-content: center;
+}
+.card-img{
+  border-radius: 10%;
+  width:fit-content;
+  align-self: center;
+  margin:10%;
+}
+
+/* Img profile properties */
+.img-profile{
+  border-radius: 10%;
+  width: 100px;
+  height: auto;
+  align-self: center;
+  margin:1%;
+}
+
+/* Image certifications properties */
+.img-certs{
+  border-radius: 10%;
+  width: 10px;
+  height:10px;
+  align-self: center;
+  margin:1%;
+}
+
+/* To apply text justification to a specific element */
+.justified-text {
+  text-align: justify;
+}
+/* container class properties */
+.container {
+  text-align: center;
+}
+
+/* Style for the image container */
+.image-container {
+  display: flex;
+  justify-content: space-between; /* Adjust as needed */
+  align-items: center;
+}
+
+/* Imges Certifications container styling */
+.image-container img {
+  max-width: 100%; /* Make sure images don't exceed their container */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Adjust spacing between images */
+}
+
+
+/* Media query for resizing page on smaller devices */
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+
+/* Footer & social media logos */
+
+a:hover {
+  css declarations;
+}
+.icon:hover {
+  background-color: blue;
+}
+
+#target:hover {
+  transform: scale(1.5);
+}
+.container-hover{
+  background-color:black;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  height: 70px;
+  width: 70px;
+  background-color: #e6f3ed;
+  border-radius: 35px;
+  text-align: center;
+  margin: 7px;
+  line-height: 80px;
+}
+
+a i {
+  transition: all 0.3s linear;
+}
+
+a:hover i {
+  transform: scale(1.5);
+}
+
+.salesforce:hover {
+  color: red;
+}
+
+.mail:hover {
+  color: blue;
+}
+
+.instagram:hover {
+  color: #e11d74;
+}
+
+.twitter:hover {
+  color: #00adb5;
+}
+
+.github:hover {
+  color: black;
+}
+
+.linkedin:hover {
+  color: #04009a;
+}
